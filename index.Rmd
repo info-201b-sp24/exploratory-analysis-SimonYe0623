@@ -33,58 +33,94 @@ We believe these four questions are essential because sleep plays a critical rol
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+There are many studies on sleep quality around the world, We would like to further study the performance of sleep in different groups of people and how it is affected by factors such as sleep quality and gender, stress level, physical activity, and age. Based on this goal, we found the following related articles. In the paper Age and gender effects on the Prevalence of Poor Sleep Quality in the Adult Population, it is shown that women's sleep quality is more likely to deteriorate over time. women's sleep quality is more likely to deteriorate over time. Based on the information provided by National Libray Medicine(NLM), While short bursts of exercise have a minimal effect on sleep, for adults, a regular and consistent exercise program can be beneficial to the quality and length of sleep by stimulating an increase in melatonin and by reducing stress and improving mood, all factors that can be effective in reducing and avoiding sleep order. Moreover, according to AMERICAN PSYCHOLOGICAL ASSOCIATION in the article Are Teens Adopting Adults' Stress Habits? stress and sleep quality go both ways, and for adolescents, lack of adequate sleep can lead to a variety of health and psychological problems, and they are more likely to be affected by stress than adults. “Millennials and Gen Xers are also more likely to report feeling sad or depressed because of stress (Millennials: 47 percent; Gen Xers: 42 percent; Boomers: 29 percent). percent; Boomers: 29 percent; Matures: 15 percent)”(American Psychological Association).
+
+Citation:
+
+J. J. Madrid-Valero, J. M. Martínez-Selva, B. R. do Couto, J. F. Sánchez-Romera, and J. R. Ordoñana, “Age and gender effects on the prevalence of poor sleep quality in the adult population,” Gaceta Sanitaria, https://www.scielosp.org/article/gs/2017.v31n1/18-22/en/?uid=680b54f39b (accessed Apr. 30, 2024). ”
+
+M. A. Alnawwar et al., “The effect of physical activity on sleep quality and sleep disorder: A systematic review,” Cureus, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10503965/ (accessed Apr. 30, 2024).
+
+American Psychological Association, "Stress in America™: Are Teens Adopting Adults’ Stress Habits?" Feb. 2014. [Online]. Available: https://www.apa.org/news/press/releases/stress/2013/sleep#:~:text=On%20average%2C%20adults%20with%20lower,enough%20sleep%20(79%20percent%20vs. (Accessed: 30-Apr-2024).
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
+Where did you find the data? Please include a link to the data source
+
+We found these data in Google Datasets. It's from a website called Kaggle. The URL to the webset: https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset?resource=download
+
 Who collected the data?  
+
+The data was updated by LAKSIKA THARMALINGAM.
+
 How was the data collected or generated?  
+
+The data was synthetic by Laksika Tharmalingam for illustrative purpose. She states that it does not originate from any specific individual or external source.
+
 Why was the data collected?  
+
+The reason that the data were collected is because Laksika wants to illustrate the relationships between gender, age, occupation, sleep duration, quality of sleep, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps, and the presence or absence of sleep disorders.
+
 How many observations (rows) are in your data?  
+
+There are 374 rows in our data.
+
 How many features (columns) are in the data?  
+
+There are 12 columns in our data.
+
 What, if any, ethical questions or questions of power do you need to consider when working with this data?  
+
+There is no ethical questions or questions of power we need to consider when we working with this data.
+
 What are possible limitations or problems with this data?   (at least 200 words)
+
+There are a few possible limitations with this data. First, this data was synthetic by the author which means these data may have an impact on the final results we expect. Because this dataset involves information about sleep quality, physical activity, and stress levels that are often subjectively provided by the participants for whom the data was collected, it may be subject to biases such as recall bias or social desirability bias. They may not remember accurately or may deliberately change their responses, or they may provide factors that are too subjective. At the same time, there have been some problems with the sampling method. It appears that the representativeness of this data set depends on how participants were selected, rather than the random sampling method, which could introduce selection bias and cause the results to fall short of expectations. In more specific, the limitations of this dataset mainly stem from its synthetic nature. This means that the data is artificially constructed rather than collected from real-world observations, potentially affecting the reliability and applicability of insights derived from this dataset to actual populations. Additionally, questions related to self-reported data such as sleep quality, physical activity, and stress levels are also important. These subjective measurements can introduce biases such as recall bias (where participants may not remember past events accurately) and social desirability bias (which occurs when participants modify their responses to appear more favorable). Additionally, there are concerns about the sampling method used to generate this dataset. The lack of random sampling may lead to selection bias that distorts the representativeness of the data set and may lead to conclusions that do not withstand scrutiny or wider application. All these factors combined may seriously affect the conclusions drawn from analyzes using this dataset, and results need to be interpreted with caution and consideration of their implications for real-world scenarios.
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+Although our dataset was not created by technologists, designers, and policymakers. But if the "Sleep Health and Lifestyle Dataset" research questions are effectively answered, the implications for technologists, designers, and policymakers could be widespread and impactful. For technologists, these findings could lead to the development of advanced algorithms that could improve the accuracy and personalization of sleep-tracking devices. These insights can be used to tailor recommendations for improving sleep based on individual lifestyle factors such as physical activity and stress levels. At the same time, designers can use this data to create more intuitive interfaces for health monitoring devices, making them easier to use and more attractive to viewers. This could include features that provide actionable insights based on a user's specific sleep patterns and health data. For policymakers, comprehensive analyzes can inform public health guidelines aimed at improving population sleep hygiene. This could lead to initiatives aimed at promoting regular physical activity, stress management and healthier sleep habits. Additionally, understanding the prevalence and impact of sleep disorders can help inform health policy and resource allocation to support sleep health programs. These combined efforts can promote a healthier population, lower health care costs, and increase overall productivity and well-being.
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+We believe our team may encounter several challenges and limitations. The results of our final analysis cannot be directly used in medical research because these datasets are synthetic and designed for educational purposes. However, the dataset is very similar to a data set with real medical results, so it can be used as our own reference. Additionally, while there were no missing data or outliers in the dataset, we did not know the definition criteria for several variables, such as how stress levels were judged. Each person's definition of stress level can be very different. While some people experience a lot of stress and that person feels like their stress level only counts as a 2, the same stress level might count as a 6 for someone else. Furthermore, because the data in the dataset are synthetic rather than collected through a set of experiments, our final results cannot directly indicate that a variable has a causal effect on sleep quality. Finally, since none of our team members are very familiar with R, the analysis methods we use may not be the most efficient and best.
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+According to the dataset, participants averaged 6.8 hours of sleep per night, with a median of 7 hours, a standard deviation of 1.5 hours, and a range of sleep duration from 4 hours to 9 hours. Participants averaged 45 days of physical activity per day, with a median of 40 minutes and a standard division of 20. The average stress level was 5.5, the median was 6 to 30, the division was 2, and the stress level ranged from 1 to 10. The most common sleep disorders, according to participant data, are insomnia and sleep apnea, which are more common in middle-aged and elderly people. According to the data, there is a very strong correlation between sleep quality and sleep duration, which is 0.88, while there is a negative correlation between stress level and sleep quality, which is -0.9. The correlation between physical activity level and perceived sleep quality was small (0.19). From the data of these studies, it can be found that longer sleep time, less stress levels, younger age, or higher levels of physical activity can positively affect sleep quality.
 
 ### Table
 
 Include a table of aggregate information
+``````{r, echo = FALSE, code = readLines("Table of Summary Information.R")}
+```
 
-Describe why you included the table and what information it reveals
+In this table, the data is visualized, and it reveals the correlation between the values of age, sleep duration quality of sleep, and physical activity level. Among them, stress level her heart rate daily stops, which is the data that needs to be referred to, is also included in the jobs that need to be referred to. This table contains a comprehensive overview of the key statistics for each variable, including the mean, median, standard deviation, minimum, and maximum. It summarizes the frequencies of each category in each categorical variable, as well as their correlations. It included the average age of the data source, as well as the amount of sleep the participants usually got, and the mean and standard deviation of their sleep quality, as well as physical activity levels, stress levels, heart rate, daily steps, gender, occupation, BMI category, blood pressure, and the prevalence of different sleep disorders they had. This method allows better classification and summarization of the data to help better understand the demographics of the participants and their lifestyles.
 
 ### Chart 1
 
 Include a chart
 
-``````{r, echo = FALSE, code = readLines("First Chart.R")}
+``````{r, echo = FALSE, code = readLines("Chart1.R")}
 ```
 
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
-```
+The purpose of this chart is to reveal the correlation between gender and sleep quality.
+Chart 1 provides a visual comparison between gender and sleep, in which the median sleep quality is found to be higher for women than for men. Both genders have similar ranges, but The distribution of women is slightly wider, which indicates that the difference in women's sleep quality is larger, and there are no obvious outliers in the chart. Overall, this chart shows that on average, women sleep better than men, but various lifestyle factors may influence this difference. 
 
 ### Chart 2
 
 Include a chart
+``````{r, echo = FALSE, code = readLines("Chart2.R")}
+```
 
-Describe why you chose this chart and what information it reveals
+The main purpose of this chart is to reveal the correlation between physical activity level and sleep quality.
+In Chart 2, the graph shows the effect of daily physical activity levels （in minutes per day), on perceived sleep quality, according to. Scattered pot showed that there was a positive correlation between daily physical activity level and sleep quality, that is, more physical activity. It usually represents a higher quality of sleep. The recreation line means that the positive correlation is very significant, and its data distribution represents the distribution of sleep quality under different activity levels, which further supports the positive effect of physical activity on sleep quality. This graph shows the positive impact of daily physical activity levels on sleep quality.
 
 ### Chart 3
 
 Include a chart
+``````{r, echo = FALSE, code = readLines("Chart3.R")}
+```
 
-Describe why you chose this chart and what information it reveals
+The main purpose of this chart is to reveal the impact of age on sleep quality. 
+Chart 3 visualizes the effect of age on the prevalence of sleep disorders, and this histogram shows the distribution of various sleep disorders among different ages. The histogram shows the number of individuals with different types of sleep disorders in different age groups, distributed by age. There was a small peak at age around 30, and the highest incidence of sleep disorder was in people around 38 years of age. Overall, this chart describes the distribution of various sleeping disorders and population age, and these data can further explore the potential causes of these sleep disorders.
