@@ -1,5 +1,5 @@
 ---
-title: "Exploratory Analysis"
+title: "Analyzing the Impact of Lifestyle Factors on Sleep Quality: A Comprehensive Study"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ Spring 2024
 
 ### Abstract
 
-**With the development of the times, the quality of sleep among modern individuals is affected by many factors. As for which factors affect it is a debatable question. This is important because understanding the sleep differences of people can better help us promote the improvement of sleep quality. Accordingly, we plan to build a project to examine the database and study the correlation between sleep quality and gender, stress level, physical activity, and age.**
+With the development of the times, the quality of sleep among modern individuals is affected by many factors. As for which factors affect it is a debatable question. This is important because understanding the sleep differences of people can better help us promote the improvement of sleep quality. Accordingly, we plan to build a project to examine the database and study the correlation between sleep quality and gender, stress level, physical activity, and age.
 
 ### Keywords
 
@@ -28,6 +28,7 @@ Our project explores the correlation between various factors and sleep quality a
 2. Does people’s daily physical activity have an impact on sleep quality?
 3. Is there a relationship between a person’s stress level and the occurrence of sleep disorders?
 4. Does age affect the occurrence of sleep disorders?
+
 We believe these four questions are essential because sleep plays a critical role in human beings’ health. Every individual needs sleep to obtain energy and keep the body’s functions functioning properly. Lack of sleep may affect our bodies’s metabolism and endocrine system. Moreover, sleep not only affects people's physical health but also plays a vital role in people's mental health. Lack of sleep can prevent people from regulating their emotions and concentrating well, and can also affect people's memory and learning abilities. By understanding the factors that influence sleep quality, researchers and scientists can implement and design targeted treatments to help individuals improve sleep quality and reduce the risk of sleep disorders. We want to know what factors will mainly affect sleep quality.
 
 ### Related Work  
