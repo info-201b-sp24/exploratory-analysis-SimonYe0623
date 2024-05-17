@@ -92,8 +92,6 @@ According to the dataset, participants averaged 6.8 hours of sleep per night, wi
 ### Table
 
 Include a table of aggregate information
-``````{r, echo = FALSE, code = readLines("Table of Summary Information.R")}
-```
 
 In this table, the data is visualized, and it reveals the correlation between the values of age, sleep duration quality of sleep, and physical activity level. Among them, stress level her heart rate daily stops, which is the data that needs to be referred to, is also included in the jobs that need to be referred to. This table contains a comprehensive overview of the key statistics for each variable, including the mean, median, standard deviation, minimum, and maximum. It summarizes the frequencies of each category in each categorical variable, as well as their correlations. It included the average age of the data source, as well as the amount of sleep the participants usually got, and the mean and standard deviation of their sleep quality, as well as physical activity levels, stress levels, heart rate, daily steps, gender, occupation, BMI category, blood pressure, and the prevalence of different sleep disorders they had. This method allows better classification and summarization of the data to help better understand the demographics of the participants and their lifestyles.
 
@@ -101,8 +99,6 @@ In this table, the data is visualized, and it reveals the correlation between th
 
 Include a chart
 
-``````{r, echo = FALSE, code = readLines("Chart1.R")}
-```
 
 The purpose of this chart is to reveal the correlation between gender and sleep quality.
 Chart 1 provides a visual comparison between gender and sleep, in which the median sleep quality is found to be higher for women than for men. Both genders have similar ranges, but The distribution of women is slightly wider, which indicates that the difference in women's sleep quality is larger, and there are no obvious outliers in the chart. Overall, this chart shows that on average, women sleep better than men, but various lifestyle factors may influence this difference. 
@@ -110,8 +106,6 @@ Chart 1 provides a visual comparison between gender and sleep, in which the medi
 ### Chart 2
 
 Include a chart
-``````{r, echo = FALSE, code = readLines("Chart2.R")}
-```
 
 The main purpose of this chart is to reveal the correlation between physical activity level and sleep quality.
 In Chart 2, the graph shows the effect of daily physical activity levels （in minutes per day), on perceived sleep quality, according to. Scattered pot showed that there was a positive correlation between daily physical activity level and sleep quality, that is, more physical activity. It usually represents a higher quality of sleep. The recreation line means that the positive correlation is very significant, and its data distribution represents the distribution of sleep quality under different activity levels, which further supports the positive effect of physical activity on sleep quality. This graph shows the positive impact of daily physical activity levels on sleep quality.
@@ -119,8 +113,6 @@ In Chart 2, the graph shows the effect of daily physical activity levels （in m
 ### Chart 3
 
 Include a chart
-``````{r, echo = FALSE, code = readLines("Chart3.R")}
-```
 
 The main purpose of this chart is to reveal the impact of age on sleep quality. 
 Chart 3 visualizes the effect of age on the prevalence of sleep disorders, and this histogram shows the distribution of various sleep disorders among different ages. The histogram shows the number of individuals with different types of sleep disorders in different age groups, distributed by age. There was a small peak at age around 30, and the highest incidence of sleep disorder was in people around 38 years of age. Overall, this chart describes the distribution of various sleeping disorders and population age, and these data can further explore the potential causes of these sleep disorders.
