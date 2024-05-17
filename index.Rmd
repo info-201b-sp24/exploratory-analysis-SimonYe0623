@@ -94,7 +94,7 @@ According to the dataset, participants averaged 6.8 hours of sleep per night, wi
 ### Table
 
 Include a table of aggregate information
-``````{r, echo = FALSE, code = readLines("Table of Summary Information.R")}
+```{r, echo = FALSE, code = readLines("Table of Summary Information.R")}
 ```
 
 In this table, the data is visualized, and it reveals the correlation between the values of age, sleep duration quality of sleep, and physical activity level. Among them, stress level her heart rate daily stops, which is the data that needs to be referred to, is also included in the jobs that need to be referred to. This table contains a comprehensive overview of the key statistics for each variable, including the mean, median, standard deviation, minimum, and maximum. It summarizes the frequencies of each category in each categorical variable, as well as their correlations. It included the average age of the data source, as well as the amount of sleep the participants usually got, and the mean and standard deviation of their sleep quality, as well as physical activity levels, stress levels, heart rate, daily steps, gender, occupation, BMI category, blood pressure, and the prevalence of different sleep disorders they had. This method allows better classification and summarization of the data to help better understand the demographics of the participants and their lifestyles.
