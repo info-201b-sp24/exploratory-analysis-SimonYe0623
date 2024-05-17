@@ -67,6 +67,9 @@ Describe why you included the table and what information it reveals
 
 Include a chart
 
+``````{r, echo = FALSE, code = readLines("First Chart.R")}
+```
+
 Describe why you chose this chart and what information it reveals
 
 Here's an example of how to run an R script inside an RMarkdown file:
