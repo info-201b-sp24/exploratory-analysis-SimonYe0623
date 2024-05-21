@@ -1,6 +1,6 @@
 # Exploratory Analysis
 
-Link to your group's exploratory analysis here: file: file:///Users/wusijia/Desktop/info201a/exploratory-analysis-SimonYe0623/index.html
+Link to your group's exploratory analysis here: ///Users/wusijia/Desktop/info201a/exploratory-analysis-SimonYe0623/index.html
 (subsitute for your group's GitHub pages site)
 
 The purpose of this assignment is to provide you with the opportunity to explore your final project data and become familiar with collaborative coding techniques. By completing the assignment, you will demonstrate the following skills:
